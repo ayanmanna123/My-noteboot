@@ -1,9 +1,11 @@
- 
+import LoginSignupForm from './components/LoginSignupForm';
 import './App.css';
 
 function App() {
   return (
-     <h1>React App</h1>
+    <div>
+    <LoginSignupForm />
+  </div>
   );
 }
 
